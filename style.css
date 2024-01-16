@@ -49,189 +49,366 @@ nav .active {
 /* Banner Section */
 
 .banner-section {
-    /* object-fit: cover; */
-    max-width: 1170px;
-    height: 500px;
-    margin: 0 auto;
-    position: relative;
-    text-align: center;
-    border-radius: 16px;
-  }
-  .bac-img {
-    width: 1170px;
-    border-radius: 16px;
-  }
-  .background {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background: linear-gradient(
-      180deg,
-      rgba(19, 19, 24, 0.8) 0%,
-      rgba(19, 19, 24, 0) 100%
-    );
-    width: 1170px;
-    height: 500px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 16px;
-  }
-  .banner-title {
-    color: #fff;
-    font-size: 64px;
-    font-weight: 800;
-  }
-  .banner-text p {
-    width: 670px;
-    margin-top: 24px;
-    margin-bottom: 48px;
-  }
-  .banner-field {
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.3);
-    width: 800px;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-  }
-  .banner-field input {
-    border-radius: 8px;
-    background: #fff;
-    width: 174px;
-    height: 52px;
-    border: none;
-    outline: none;
-    padding: 16px;
-  }
-  .frame {
-    display: flex;
-    position: relative;
-  }
-  .frame img {
-    position: absolute;
-    right: 16px;
-    top: 16px;
-  }
-  /* Popular Tour */
-  .popular-tour {
-    width: 1170px;
-    margin: 0 auto;
-    display: flex;
-    gap: 50px;
-    margin-top: 100px;
-  }
-  .popular-tour p,
-  li {
-    color: rgba(19, 19, 24, 0.7);
-    margin-bottom: 10px;
-  }
-  .pt-title {
-    color: #131318;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 24px;
-  }
-  .pt-text button {
-    margin-top: 45px;
-    cursor: pointer;
-  }
-  /* Destination Section */
-  .destination {
-    width: 1170px;
-    margin: 0 auto;
-    margin-top: 100px;
-    text-align: center;
-  }
-  .destination-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  .destination p {
-    color: #131318;
-    margin-top: 24px;
-    margin-bottom: 50px;
-  }
-  .destination-title {
-    color: #131318;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-  }
-  .desti-image {
-    position: relative;
-  }
-  .desti-image > h3 {
-    position: absolute;
-    top: 45%;
-    left: 35%;
-    color: #fff;
-    font-size: 28px;
-    font-weight: 800;
-  }
-  
-  /* Sustainable Section */
-  .sustainable {
-    width: 1170px;
-    margin: 100px auto;
-    text-align: center;
-  }
-  .sustainable .description {
-    width: 650px;
-    margin: 24px auto 50px;
-  }
-  .card-text {
-    padding-right: 20px;
-  }
-  .card-title {
-    margin-bottom: 24px;
-  }
-  .cox-bazar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row-reverse;
-    gap: 20px;
-    height: 400px;
-    margin-bottom: 30px;
-    text-align: left;
-    line-height: 25px;
-    background: rgb(255, 226, 226);
-    border-radius: 16px;
-  }
-  .cox-bazar img {
-    width: 50%;
-    border-radius: 16px;
-    height: 100%;
-  }
-  .cox-bazar div {
-    width: 50%;
-  }
-  .taj-mahal {
-    display: flex;
-    height: 400px;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    text-align: left;
-    line-height: 25px;
-    background: #d4f3c3;
-    padding-left: 20px;
-    border-radius: 16px;
-  }
-  .taj-mahal img {
-    width: 50%;
-    border-radius: 16px;
-    height: 100%;
-  }
-  .taj-mahal div {
-    width: 50%;
-  }
+  /* object-fit: cover; */
+  max-width: 1170px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  border-radius: 16px;
+}
+.bac-img {
+  width: 1170px;
+  border-radius: 16px;
+}
+.background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: linear-gradient(
+    180deg,
+    rgba(19, 19, 24, 0.8) 0%,
+    rgba(19, 19, 24, 0) 100%
+  );
+  width: 1170px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+}
+.banner-title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+}
+.banner-text p {
+  width: 670px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+.banner-field {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  width: 800px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.banner-field input {
+  border-radius: 8px;
+  background: #fff;
+  width: 174px;
+  height: 52px;
+  border: none;
+  outline: none;
+  padding: 16px;
+}
+.frame {
+  display: flex;
+  position: relative;
+}
+.frame img {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}
+/* Popular Tour */
+.popular-tour {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+  margin-top: 100px;
+}
+.popular-tour p,
+li {
+  color: rgba(19, 19, 24, 0.7);
+  margin-bottom: 10px;
+}
+.pt-title {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.pt-text button {
+  margin-top: 45px;
+  cursor: pointer;
+}
+/* Destination Section */
+.destination {
+  width: 1170px;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+}
+.destination-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.destination p {
+  color: #131318;
+  margin-top: 24px;
+  margin-bottom: 50px;
+}
+.destination-title {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.desti-image {
+  position: relative;
+}
+.desti-image > h3 {
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+/* Sustainable Section */
+.sustainable {
+  width: 1170px;
+  margin: 100px auto;
+  text-align: center;
+}
+.sustainable .description {
+  width: 650px;
+  margin: 24px auto 50px;
+}
+.card-text {
+  padding-right: 20px;
+}
+.card-title {
+  margin-bottom: 24px;
+}
+.cox-bazar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  gap: 20px;
+  height: 400px;
+  margin-bottom: 30px;
+  text-align: left;
+  line-height: 25px;
+  background: rgb(255, 226, 226);
+  border-radius: 16px;
+}
+.cox-bazar img {
+  width: 50%;
+  border-radius: 16px;
+  height: 100%;
+}
+.cox-bazar div {
+  width: 50%;
+}
+.taj-mahal {
+  display: flex;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: left;
+  line-height: 25px;
+  background: #d4f3c3;
+  padding-left: 20px;
+  border-radius: 16px;
+}
+.taj-mahal img {
+  width: 50%;
+  border-radius: 16px;
+  height: 100%;
+}
+.taj-mahal div {
+  width: 50%;
+}
+/* Why Choose us  */
+
+.choose-us {
+  width: 1170px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.chooseus-text p {
+  width: 600px;
+  text-align: center;
+  margin: 24px auto 50px;
+}
+.choose-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.choose-card1 {
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  padding: 35px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+.choose-card2 {
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  padding: 35px;
+
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.choose-card3 {
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  padding: 35px;
+  margin: 25px auto;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+}
+.choose-card1 h3 {
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+.choose-card2 h3 {
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+.choose-card3 h3 {
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+
+/* Newsletter Section */
+
+.newsletter {
+  width: 1170px;
+  margin: 100px auto 20px;
+  display: flex;
+  gap: 24px;
+  position: relative;
+}
+.news-card {
+  width: 474px;
+  height: 422px;
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  padding: 40px;
+}
+.news-card h3 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.news-card p {
+  margin: 16px 0 24px;
+}
+.news-card hr {
+  border: 1px solid rgba(19, 19, 24, 0.1);
+  margin-bottom: 24px;
+}
+.news-card input {
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  border: none;
+  margin-bottom: 16px;
+  outline: none;
+  padding: 16px 20px;
+}
+.news-card button {
+  width: 393px;
+  cursor: pointer;
+}
+
+.travel-com {
+  color: #fff;
+}
+.travel-card {
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  border-radius: 16px;
+  background: #ff5400;
+  color: #fff;
+  padding: 20px;
+  position: absolute;
+  right: 8px;
+  bottom: 59px;
+}
+.travel-card h4 {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+.travel-card h3 {
+  color: #fff;
+  font-style: normal;
+  font-weight: 800;
+  text-align: center;
+  font-size: 32px;
+}
+
+/* Footer Section */
+footer {
+  background: rgba(19, 19, 24, 0.05);
+  height: 500px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 100px;
+}
+footer p {
+  width: 750px;
+  margin: 16px auto 35px;
+}
+.social-icons {
+  margin-bottom: 50px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+footer hr {
+  width: 872px;
+  border: 1px solid rgba(19, 19, 24, 0.1);
+}
+.rights {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+/* logo */
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.logo h1 {
+  font-size: 32px;
+  font-weight: 800;
+}
+.logo span {
+  color: #ff5400;
+  font-size: 32px;
+  font-weight: 800;
+}
