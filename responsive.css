@@ -74,3 +74,131 @@
       border-radius: 8px;
       background: #ff5400;
     }
+     /* popular */
+  .popular-tour {
+    flex-direction: column;
+    width: 335px;
+  }
+  .pt-title {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .pt-image img {
+    width: 335px;
+  }
+  /* Destination */
+  .destination {
+    width: 335px;
+  }
+  .destination-image {
+    flex-direction: column;
+  }
+  .destination-image img {
+    width: 335px;
+    height: 175px;
+  }
+  /* Sustainable */
+  .sustainable {
+    width: 335px;
+  }
+  .sustainable .description {
+    width: 300px;
+  }
+  .cox-bazar {
+    flex-direction: column;
+    height: 500px;
+  }
+  .cox-bazar img {
+    width: 100%;
+  }
+  .taj-mahal img {
+    width: 100%;
+    height: 35%;
+  }
+  .card-text p {
+    padding: 0px;
+    text-align: left;
+  }
+  .cox-bazar div {
+    width: 100%;
+    padding: 20px;
+  }
+  .taj-mahal div {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .card-title {
+    margin: 20px 0 0 0;
+  }
+  .taj-mahal h3 {
+    padding: 0px;
+    margin: 70px 0 0 0;
+  }
+  .taj-mahal {
+    flex-direction: column;
+    height: 500px;
+    padding-left: 0px;
+    margin-top: 70px;
+  }
+  /* Why Chose us */
+  .choose-us {
+    width: 335px;
+  }
+  .chooseus-text p {
+    width: 300px;
+  }
+  .choose-cards {
+    flex-direction: column;
+    width: 335px;
+  }
+  .choose-cards div {
+    width: 335px;
+  }
+  .choose-card3 {
+    width: 335px;
+  }
+  /* Newsletter */
+  .newsletter {
+    flex-direction: column;
+    width: 335px;
+  }
+  .news-card {
+    width: 335px;
+    padding: 20px;
+  }
+  .news-card input {
+    width: 288px;
+    height: 52px;
+  }
+  .news-card button {
+    width: 288px;
+    height: 52px;
+  }
+  .news-image img {
+    width: 335px;
+  }
+  .travel-card {
+    width: 214.023px;
+    height: 79.268px;
+  }
+  .travel-card h4 {
+    color: #fff;
+    text-align: center;
+    font-size: 15.854px;
+    font-weight: 400;
+  }
+  .travel-card h3 {
+    color: #fff;
+    font-size: 21.138px;
+    font-weight: 800;
+  }
+  /* Footer */
+  footer p {
+    width: 300px;
+  }
+  footer hr {
+    width: 335px;
+  }
+}
