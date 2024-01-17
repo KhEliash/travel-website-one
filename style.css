@@ -327,8 +327,7 @@ li {
   text-align: left;
   gap: 24px;
 }
-.pp-text h2,
-p {
+.pp-text h2 {
   text-align: left;
   margin-bottom: 24px;
 }
