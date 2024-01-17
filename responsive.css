@@ -2,7 +2,7 @@
   header {
     width: 335px;
   }
-  
+
   nav {
     display: none;
   }
@@ -161,6 +161,43 @@
   .choose-card3 {
     width: 335px;
   }
+  /* Discount */
+  .discount {
+    width: 335px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  .discount p {
+    width: 335px;
+    margin: 24px auto 50px;
+  }
+  .box-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .box-container img {
+    width: 335px;
+  }
+  .discount button {
+    margin-top: 30px;
+  }
+  .box-container .desktop {
+    display: none;
+  }
+  .box-container .mobile {
+    display: block;
+  }
+  .box-container .mobile img {
+    width: 335px;
+    height: 500px;
+  }
+  /* Perfect place */
+  .perfect-place {
+    width: 335px;
+    flex-direction: column;
+  }
+
   /* Newsletter */
   .newsletter {
     flex-direction: column;
